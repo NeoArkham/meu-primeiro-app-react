@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import GalleryItem from './components/GalleryItem';
+import Gallery from './components/Gallery'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-           <code>Olá, Mundo! Este é meu primeiro componente React!</code> 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Minha galeria em React</h1>
+      <Gallery />
     </div>
   );
 }
